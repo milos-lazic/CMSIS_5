@@ -42,7 +42,7 @@ __ROM_SIZE = 0x00040000;
   </h>
  -----------------------------------------------------------------------------*/
 __RAM_BASE = 0x20000000;
-__RAM_SIZE = 0x00020000;
+__RAM_SIZE = 0x00008000;
 
 /*--------------------- Stack / Heap Configuration ----------------------------
   <h> Stack / Heap Configuration
@@ -127,7 +127,7 @@ SECTIONS
   /*
    * SG veneers:
    * All SG veneers are placed in the special output section .gnu.sgstubs. Its start address
-   * must be set, either with the command line option ‘--section-start’ or in a linker script,
+   * must be set, either with the command line option ï¿½--section-startï¿½ or in a linker script,
    * to indicate where to place these veneers in memory.
    */
 /*
